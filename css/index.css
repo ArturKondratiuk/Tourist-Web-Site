@@ -1,0 +1,92 @@
+/* WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+/* Imports the "Outfit" font from Google Fonts, with weight variations from 100 to 900 */
+html {
+  font-family: "Outfit", sans-serif; /* Sets the default font for the document */
+  font-optical-sizing: auto; /* Enables automatic adjustment of font size based on font properties */
+  font-style: normal; /* Sets a normal font style */
+}
+
+body {
+  margin: 0; /* Removes default body margin */
+  background: #fff; /* Sets a white background */
+  color: #333; /* Sets a dark gray text color */
+}
+
+header {
+  background-color: #ff6f3c; /* Sets a bright orange background color for header */
+  color: white; /* Sets text color to white */
+  text-align: center; /* Centers text within the header */
+}
+
+.header {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Arranges items vertically */
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers text content */
+}
+
+.logo {
+  height: 150px; /* Sets the height of the logo */
+  width: auto; /* Keeps the aspect ratio of the logo */
+}
+
+.logo:hover {
+  transform: scale(1.2); /* Enlarges the logo slightly on hover */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth animation for scaling and shadow */
+}
+
+.tour-grid {
+  display: grid; /* Enables grid layout for the tour cards */
+  grid-template-columns: repeat(3, 1fr); /* Creates a 3-column layout */
+  gap: 1rem 1.2rem; /* Adds spacing between rows and columns */
+  max-width: 1200px; /* Limits the grid width */
+  margin: 0 auto; /* Centers the grid horizontally */
+  padding: 1.5rem 1rem; /* Adds padding around the grid */
+}
+
+.tour-card {
+  width: 100%; /* Makes the card responsive to its container */
+  max-width: 320px; /* Sets a maximum width for the card */
+  padding: 0.8rem; /* Adds padding inside the card */
+  border-radius: 10px; /* Rounds the corners of the card */
+  background: #fff7f3; /* Sets a light peach background color */
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Sets text color to dark gray */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08); /* Adds a subtle shadow for depth */
+  transition: transform 0.4s ease, box-shadow 0.2s ease; /* Smooth animation for scaling and shadow */
+}
+
+.tour-card:hover {
+  transform: scale(1.025); /* Slightly enlarges the card on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); /* Enhances shadow for a hovering effect */
+}
+
+.tour-card img {
+  width: 100%; /* Makes the image responsive to its container */
+  height: 160px; /* Sets a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 8px; /* Rounds the corners of the image */
+}
+
+img {
+  width: 100%; /* Ensures images are fully responsive */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 8px; /* Rounds the corners */
+  margin-bottom: 1rem; /* Adds space below images */
+  object-fit: cover; /* Prevents distortion */
+}
+
+span {
+  color: red; /* Sets text color to red */
+  text-decoration: underline; /* Underlines the text */
+}
+
+footer {
+  background: #fdf2ec; /* Sets a light cream background color */
+  padding: 2rem; /* Adds padding inside the footer */
+}
+
+footer h3 {
+  color: #ff6f3c; /* Sets a bright orange color for footer headings */
+}

@@ -1,0 +1,104 @@
+<!-- WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding for the page to ensure proper text rendering -->
+  <meta charset="UTF-8" />
+  
+  <!-- The title of the page that appears in the browser tab -->
+  <title>Sunny Spain</title>
+  
+  <!-- Linking to an external CSS file for the styles of this page -->
+  <link rel="stylesheet" href="../css/tour2.css" />
+</head>
+<body>
+  <!-- Header section with a back button and the tour title -->
+  <header style="position: relative;">
+    <!-- Back button that redirects to the main page -->
+    <a href="../index.html" class="back-button">
+      <!-- Image for the back button (Home button) -->
+      <img src="../images/back_to_main_page.png" alt="Home" class="backimg" />
+    </a>
+    
+    <h1>Sunny Spain</h1>
+  </header>
+
+  <main>
+    <!-- Banner section containing images showcasing the tour destination -->
+    <section class="banner">
+      <img src="../images/sunny_spain2.jpg" class="image-container" alt="Sunny Spain view 1" />
+      <img src="../images/sunny_spain3.jpg" class="image-container" alt="Sunny Spain view 2" />
+      <img src="../images/sunny_spain4.jpg" class="image-container" alt="Sunny Spain view 3" />
+    </section>
+
+    <!-- Tour details section -->
+    <section class="details">
+      <h2>About the Tour</h2>
+      <p>Experience the vibrant soul of Spain on this relaxing and culture-rich adventure. Over the course of several unforgettable days, you’ll enjoy the perfect mix of sun-soaked beaches and urban exploration:</p>
+      <ul>
+        <li><strong>🏖️ Beachside Bliss:</strong> Unwind on the golden sands of the Costa del Sol and Costa Brava, where the Mediterranean breeze and crystal-clear waters create the ultimate escape.</li>
+        <li><strong>🖼️ Barcelona Highlights:</strong> Stroll down the famous La Rambla, admire Gaudí’s masterpieces like the Sagrada Família and Park Güell, and discover the city's bohemian charm and culinary delights.</li>
+        <li><strong>🏛️ Madrid’s Majesty:</strong> Explore royal palaces, world-renowned museums like the Prado, and feel the heartbeat of Spain in the capital’s bustling plazas and flamenco nights.</li>
+        <li><strong>🍷 Local Flavor:</strong> Enjoy traditional tapas, regional wines, and vibrant local markets as you dive deep into Spain’s rich culture.</li>
+      </ul>
+
+      <p>This tour offers the perfect balance of relaxation, exploration, and authentic experiences, all guided by passionate locals who bring each destination to life.</p>
+
+      <!-- What's included in the tour package -->
+      <h3>What's Included:</h3>
+      <ul>
+        <li>Accommodation</li>
+        <li>Meals</li>
+        <li>Transport</li>
+        <li>Guided activities</li>
+      </ul>
+
+      <!-- Displaying the duration and price of the tour -->
+      <p class="info"><strong>Duration:</strong> 5 days</p>
+      <p class="info"><strong>Price:</strong> $799</p>
+
+      <!-- Button to continue to the payment page -->
+      <button onclick="window.location.href='paymentpage.html?price=799'" class="book-btn">Continue</button>
+    </section>
+  </main>
+
+  <!-- Weather widget section -->
+  <section id="weather-widget">
+    <h3>Weather forecast in Madrid</h3>
+    <!-- Placeholder for weather information, it will be populated by JavaScript -->
+    <div id="weather-info">
+      <p>Loading forecast...</p>
+    </div>
+  </section>
+
+  <!-- Vote section asking the user whether they would join the tour -->
+  <section id="vote-section">
+    <h3>Would you join this tour?</h3>
+    <!-- Yes and No buttons to vote -->
+    <button onclick="vote('yes')">Yes 👍</button>
+    <button onclick="vote('no')">No 👎</button>
+    <!-- Display the results of the votes -->
+    <div id="vote-results" style="margin-top: 1rem;"></div>
+  </section>  
+
+  <!-- Footer section with contact information and FAQ -->
+  <footer>
+    <h3>Contacts</h3>
+    <p><strong>Telephone:</strong> +353 85 1351009</p>
+    <p><strong>Email:</strong> adventuretravel@gmail.com</p>
+
+    <h3>FAQ</h3>
+    <ul>
+      <li><strong>How can I book?</strong> Click the tour, then hit "Book Now".</li>
+      <li><strong>Are flights included?</strong> Usually yes — check details on each tour page.</li>
+      <li><strong>What is included in the tour package?</strong> Accommodation, transport, activities, and some meals.</li>
+      <li><strong>What is your cancellation policy?</strong> Free cancellation up to 14 days before the tour.</li>
+      <li><strong>Do I need travel insurance?</strong> Yes, we recommend having it.</li>
+      <li><strong>Are the tours suitable for all ages?</strong> Most are — check each tour for details.</li>
+    </ul>
+  </footer>
+
+  <!-- Linking to an external JavaScript file for the page functionality -->
+  <script src="../js/tour2.js"></script>
+</body>
+</html>

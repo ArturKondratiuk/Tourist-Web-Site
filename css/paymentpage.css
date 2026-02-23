@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #ff6f3c;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.back-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1000;
+}
+
+.backimg {
+  width: 50px;
+}
+
+.back-button:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.payment-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff7f3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.price-info {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.book-btn {
+  background-color: #ff6f3c;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #e45d29;
+}
+
+#region-warning {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: none;
+}
+
+footer {
+  background: #fdf2ec;
+  padding: 2rem;
+  margin-top: 26rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+}

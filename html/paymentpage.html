@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="../css/paymentpage.css" />
+</head>
+<body>
+  <header>
+    <div class="header">
+      <h1>Complete Your Booking</h1>
+      <a href="../index.html" class="back-button">
+        <img src="../images/back_to_main_page.png" alt="Home" class="backimg" />
+      </a>
+    </div>
+  </header>
+
+  <main class="payment-container">
+    <form id="payment-form">
+      <label for="firstName">First Name:
+        <input type="text" id="firstName" name="firstName" required />
+      </label>
+
+      <label for="lastName">Last Name:
+        <input type="text" id="lastName" name="lastName" required />
+      </label>
+
+      <label for="phone">Phone:
+        <input type="tel" id="phone" name="phone" required />
+      </label>
+
+      <label for="email">Email:
+        <input type="email" id="email" name="email" required />
+      </label>
+
+      <label for="traveler-type">Type:
+        <select id="traveler-type" name="travelerType">
+          <option value="adult">Adult</option>
+          <option value="child">Child (25% discount)</option>
+        </select>
+      </label>
+
+      <div class="price-info">
+        <strong>Total:</strong> <span id="price-display">$0</span>
+      </div>
+
+      <button type="submit" class="book-btn">Pay Now</button>
+      <p id="region-warning" class="hidden">Not available in your region</p>
+    </form>
+  </main>
+
+  <footer>
+    <h3>Thank you for choosing Adventure Travel Company!</h3>
+  </footer>
+
+  <script src="../js/paymentpage.js"></script>
+</body>
+</html>

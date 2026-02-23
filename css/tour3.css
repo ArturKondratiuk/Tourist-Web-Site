@@ -1,0 +1,163 @@
+/* WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* Importing the "Outfit" font family from Google Fonts */
+/* Setting the font family and other basic text styling */
+html {
+  font-family: "Outfit", sans-serif; /* Applying Outfit font */
+  font-optical-sizing: auto; /* Automatic optical sizing based on the font size */
+  font-style: normal; /* Default font style */
+}
+
+/* Basic body styling */
+body {
+  margin: 0; /* Removes the default margin */
+  background: #ffffff; /* Setting the background color to white */
+  color: #333; /* Default text color */
+}
+
+/* Header section styles */
+header {
+  background-color: #ff6f3c; /* Orange background for the header */
+  color: white; /* White text color */
+  padding: 2rem; /* Padding around the header content */
+  text-align: center; /* Centering the text inside the header */
+}
+
+/* Back button styles */
+.back-button {
+  position: absolute; /* Positioning the back button absolutely */
+  top: -30px; /* Positioning it 30px above the top of the page */
+  left: -30px; /* Positioning it 30px to the left of the page */
+  z-index: 1000; /* Ensuring the back button is on top of other elements */
+}
+
+/* Styling for the back button image */
+.backimg {
+  width: 50px; /* Setting a fixed width for the back button image */
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+  transform: scale(1.2); /* Enlarging the back button on hover */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition effect */
+}
+
+/* Image styles */
+img {
+  align-items: center; /* Centering the images inside their container */
+  margin: 2rem; /* Adding margin around images */
+  max-width: 100%; /* Ensuring the images do not overflow their container */
+  width: 765px; /* Setting a fixed width for images */
+  border-radius: 12px; /* Rounded corners for images */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition effect for hover */
+}
+
+/* Hover effect for images */
+img:hover {
+  transform: scale(1.015); /* Slightly enlarging the image on hover */
+}
+
+/* Details section styling */
+.details {
+  padding: 0 2rem 2rem; /* Padding around the details section */
+  max-width: 2000px; /* Setting a max-width for the details section */
+}
+
+/* Styling for the titles inside the details section */
+.details h2,
+.details h3 {
+  color: #ff6f3c; /* Orange color for subheadings */
+}
+
+/* List style for the tour highlights */
+.details ul {
+  list-style: square; /* Square bullet points for the list */
+  margin-left: 1.5rem; /* Indentation for the list */
+}
+
+/* Info paragraph style */
+.info {
+  font-weight: bold; /* Making the info text bold */
+  margin-top: 1rem; /* Adding margin on top */
+}
+
+/* Button for booking the tour */
+.book-btn {
+  background-color: #ff6f3c; /* Orange background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 1rem 2rem; /* Padding inside the button */
+  font-size: 1rem; /* Font size of the button text */
+  margin-top: 1.5rem; /* Margin on top of the button */
+  border-radius: 8px; /* Rounded corners for the button */
+  cursor: pointer; /* Changing the cursor to a pointer on hover */
+  transition: background 0.3s ease; /* Smooth transition effect for background color */
+}
+
+/* Hover effect for the booking button */
+.book-btn:hover {
+  background-color: #e45d29; /* Darkening the background color when hovering */
+}
+
+/* Footer section styling */
+footer {
+  background: #fdf2ec; /* Light background color for the footer */
+  padding: 2rem; /* Padding inside the footer */
+  margin-top: 2rem; /* Margin on top of the footer */
+  border-top: 1px solid #eee; /* A subtle top border */
+}
+
+/* Styling for footer headings */
+footer h3 {
+  color: #ff6f3c; /* Orange color for footer headings */
+}
+
+/* Vote section styling */
+#vote-section {
+  background-color: #fff5ef; /* Light background for the voting section */
+  padding: 1.5rem; /* Padding inside the vote section */
+  border-radius: 12px; /* Rounded corners */
+  text-align: center; /* Center the content inside the section */
+  margin-top: 2rem; /* Margin on top of the vote section */
+}
+
+/* Button style for vote section */
+#vote-section button {
+  background-color: #ff6f3c; /* Orange background for the buttons */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 0.6rem 1.2rem; /* Padding for the button */
+  margin: 0.5rem; /* Margin between the buttons */
+  border-radius: 8px; /* Rounded corners for the buttons */
+  font-size: 1rem; /* Font size for the button text */
+  cursor: pointer; /* Changing the cursor to a pointer */
+  transition: transform 0.2s ease; /* Smooth transition effect for scaling */
+}
+
+/* Hover effect for the vote buttons */
+#vote-section button:hover {
+  transform: scale(1.05); /* Slightly enlarging the button on hover */
+}
+
+/* Displaying the vote results with bold text */
+#vote-results {
+  font-weight: bold; /* Bold font for the results */
+  color: #333; /* Dark color for the text */
+}
+
+/* Weather widget container style */
+#weather-widget {
+  background: #fff5ef; /* Light background color for the widget */
+  padding: 1.5rem; /* Padding inside the widget */
+  border-radius: 12px; /* Rounded corners */
+  margin-top: 2rem; /* Margin on top of the widget */
+  text-align: center; /* Centering the content */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Subtle shadow around the widget */
+}
+
+/* Styling for the weather information */
+#weather-info {
+  font-size: 1.1rem; /* Slightly larger font size for weather info */
+  margin-top: 1rem; /* Margin on top of the weather info */
+  color: #333; /* Dark color for the text */
+}

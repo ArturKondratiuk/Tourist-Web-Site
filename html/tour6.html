@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tokyo Explorer</title>
+  <link rel="stylesheet" href="../css/tour6.css"/>
+</head>
+<body>
+  <header style="position: relative;">
+    <a href="../index.html" class="back-button">
+        <img src="../images/back_to_main_page.png" alt="Home" class="backimg"/>
+    </a>
+    <h1>Tokyo Explorer</h1>
+  </header>
+
+  <main>
+    <section class="banner">
+      <img src="../images/tokyo_explorer2.jpg" class="image-container" alt="Tokyo Street View">
+      <img src="../images/tokyo_explorer3.jpg" class="image-container" alt="Senso-ji Temple">
+      <img src="../images/tokyo_explorer4.jpg" class="image-container" alt="Modern Tokyo Skyline">
+    </section>
+
+    <section class="details">
+      <h2>About the Tour</h2>
+      <p>Immerse yourself in the dynamic heart of Tokyo, where tradition and technology blend seamlessly into one unforgettable experience. This tour offers a deep dive into the culture, cuisine, and iconic sights of Japan’s vibrant capital:</p>
+
+      <ul>
+        <li><strong>🏙️ City Highlights:</strong> Marvel at the dazzling skyline of Shibuya, take in the historic serenity of Asakusa’s Senso-ji Temple, and explore the cutting-edge fashion and pop culture of Harajuku.</li>
+        <li><strong>🍣 World-Class Cuisine:</strong> From sushi masterclasses to bustling night markets, taste your way through Tokyo’s legendary food scene — including Michelin-starred gems and humble ramen shops.</li>
+        <li><strong>🎎 Cultural Experiences:</strong> Try on a kimono, witness a traditional tea ceremony, or stroll through tranquil Japanese gardens tucked away among the skyscrapers.</li>
+        <li><strong>🚄 Modern Energy:</strong> Ride the famous Shinkansen bullet train, shop in high-tech wonderlands like Akihabara, and discover the fast-paced magic of one of the world’s most exciting cities.</li>
+      </ul>
+
+      <p>Whether you’re a foodie, a history buff, or a first-time explorer, this tour captures the essence of Tokyo — endlessly surprising, beautifully balanced, and always unforgettable.</p>
+
+      <h3>What's Included:</h3>
+      <ul>
+        <li>Accommodation</li>
+        <li>Meals</li>
+        <li>Transport</li>
+        <li>Guided activities</li>
+      </ul>
+
+      <p class="info"><strong>Duration:</strong> 6 days</p>
+      <p class="info"><strong>Price:</strong> $1,099</p>
+
+      <button onclick="window.location.href='paymentpage.html?price=1099'" class="book-btn">Continue</button>
+    </section>
+  </main>
+
+  <section id="weather-widget">
+    <h3>Weather forecast in Tokyo</h3>
+    <div id="weather-info">
+      <p>Loading forecast...</p>
+    </div>
+  </section>
+
+  <section id="vote-section">
+    <h3>Would you join this tour?</h3>
+    <button onclick="vote('yes')">Yes 👍</button>
+    <button onclick="vote('no')">No 👎</button>
+    <div id="vote-results" style="margin-top: 1rem;"></div>
+  </section>  
+
+  <footer>
+    <h3>Contacts</h3>
+    <p><strong>Telephone:</strong> +353 85 1351009</p>
+    <p><strong>Email:</strong> adventuretravel@gmail.com</p>
+
+    <h3>FAQ</h3>
+    <ul>
+      <li><strong>How can I book?</strong> Click the tour, then hit "Book Now".</li>
+      <li><strong>Are flights included?</strong> Usually yes – check details on each tour page.</li>
+      <li><strong>What is included in the tour package?</strong> Accommodation, transport, activities, and some meals.</li>
+      <li><strong>What is your cancellation policy?</strong> Free cancellation up to 14 days before the tour.</li>
+      <li><strong>Do I need travel insurance?</strong> Yes, we recommend having it.</li>
+      <li><strong>Are the tours suitable for all ages?</strong> Most are — check each tour for details.</li>
+    </ul>
+  </footer>
+
+  <script src="../js/tour6.js"></script>
+</body>
+</html>

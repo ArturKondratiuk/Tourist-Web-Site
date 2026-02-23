@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alpine Escape</title>
+  <link rel="stylesheet" href="../css/tour4.css"/>
+</head>
+<body>
+  <header style="position: relative;">
+    <a href="../index.html" class="back-button">
+      <img src="../images/back_to_main_page.png" alt="Home" class="backimg"/>
+    </a>
+    <h1>Alpine Escape</h1>
+  </header>
+
+  <main>
+    <section class="banner">
+      <img src="../images/alpine_escape2.jpg" class="image-container" alt="Alpine Escape View 1" />
+      <img src="../images/alpine_escape3.jpg" class="image-container" alt="Alpine Escape View 2" />
+      <img src="../images/alpine_escape4.jpg" class="image-container" alt="Alpine Escape View 3" />
+    </section>
+
+    <section class="details">
+      <h2>About the Tour</h2>
+      <p>Escape to the peaceful beauty of the Alps on this scenic retreat designed for nature lovers and those craving a breath of fresh mountain air. This tour is all about tranquility, exploration, and alpine charm:</p>
+      
+      <ul>
+        <li><strong>🥾 Breathtaking Hikes:</strong> Trek through lush valleys, wildflower meadows, and panoramic mountain passes with trails suited for all levels — every step offering postcard-worthy views.</li>
+        <li><strong>🌲 Fresh Alpine Air:</strong> Recharge your mind and body as you breathe in the crisp, clean air of high-altitude landscapes untouched by the rush of modern life.</li>
+        <li><strong>🏡 Cozy Mountain Lodges:</strong> Unwind in warm, welcoming alpine chalets with rustic interiors, wood-burning fireplaces, and stunning views right outside your window.</li>
+        <li><strong>🍫 Local Delights:</strong> Savor hearty regional cuisine — from Swiss fondue and Austrian pastries to French alpine wines and fresh mountain cheeses.</li>
+      </ul>
+
+      <p>Whether you're relaxing by a crackling fire or watching the sun rise over snow-capped peaks, this retreat is your gateway to natural serenity and alpine magic.</p>
+
+      <h3>What's Included:</h3>
+      <ul>
+        <li>Accommodation</li>
+        <li>Meals</li>
+        <li>Transport</li>
+        <li>Guided activities</li>
+      </ul>
+
+      <p class="info"><strong>Duration:</strong> 8 days</p>
+      <p class="info"><strong>Price:</strong> $1,199</p>
+
+      <button onclick="window.location.href='paymentpage.html?price=1199'" class="book-btn">Continue</button>
+    </section>
+  </main>
+
+  <section id="weather-widget">
+    <h3>Weather forecast in Grenoble</h3>
+    <div id="weather-info">
+      <p>Loading forecast...</p>
+    </div>
+  </section>
+
+  <section id="vote-section">
+    <h3>Would you join this tour?</h3>
+    <button onclick="vote('yes')">Yes 👍</button>
+    <button onclick="vote('no')">No 👎</button>
+    <div id="vote-results" style="margin-top: 1rem;"></div>
+  </section>  
+
+  <footer>
+    <h3>Contacts</h3>
+    <p><strong>Telephone:</strong> +353 85 1351009</p>
+    <p><strong>Email:</strong> adventuretravel@gmail.com</p>
+
+    <h3>FAQ</h3>
+    <ul>
+      <li><strong>How can I book?</strong> Click the tour, then hit "Book Now".</li>
+      <li><strong>Are flights included?</strong> Usually yes — check details on each tour page.</li>
+      <li><strong>What is included in the tour package?</strong> Accommodation, transport, activities, and some meals.</li>
+      <li><strong>What is your cancellation policy?</strong> Free cancellation up to 14 days before the tour.</li>
+      <li><strong>Do I need travel insurance?</strong> Yes, we recommend having it.</li>
+      <li><strong>Are the tours suitable for all ages?</strong> Most are — check each tour for details.</li>
+    </ul>
+  </footer>
+
+  <script src="../js/tour4.js"></script>
+</body>
+</html>

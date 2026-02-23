@@ -1,0 +1,131 @@
+<!-- WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Specifies the character encoding for the document -->
+  <title>Iceland Adventure</title>
+  <!-- Sets the title of the page that appears in the browser tab -->
+  <link rel="stylesheet" href="../css/tour1.css" />
+  <!-- Links to an external CSS file for styling the page -->
+</head>
+<body>
+  <header style="position: relative;">
+    <!-- Header section of the page -->
+
+    <a href="../index.html" class="back-button">
+      <!-- Link back to the main page -->
+
+      <img src="../images/back_to_main_page.png" alt="Home" class="backimg" />
+      <!-- Image for the back button (back to the main page) -->
+    </a>
+
+    <h1>Iceland Adventure</h1>
+    <!-- Main heading for the page (tour title) -->
+  </header>
+
+  <main>
+    <!-- Main content of the page -->
+
+    <section class="gallery">
+      <!-- Gallery section containing images of Iceland -->
+
+      <img src="../images/iceland_adventure2.png" class="image-container" alt="Iceland landscape 1" />
+      <!-- First image of the Iceland landscape -->
+
+      <img src="../images/iceland_adventure3.png" class="image-container" alt="Iceland landscape 2" />
+      <!-- Second image of the Iceland landscape -->
+
+      <img src="../images/iceland_adventure4.jpg" class="image-container" alt="Iceland landscape 3" />
+      <!-- Third image of the Iceland landscape -->
+    </section>
+
+    <section class="details">
+      <!-- Section that contains the tour details -->
+
+      <h2>About the Tour</h2>
+
+      <p>Get ready for an unforgettable 7-day adventure through the land of fire and ice — Iceland!</p>
+
+      <ul>
+        <!-- Unordered list of the highlights of the tour -->
+        <li><strong>🌊 Majestic Waterfalls:</strong> Gullfoss, Skógafoss, and Seljalandsfoss — where you can walk behind the falls!</li>
+        <li><strong>❄️ Towering Glaciers:</strong> Explore Vatnajökull, Europe’s largest ice cap.</li>
+        <li><strong>🌋 Volcanic Hot Springs:</strong> Soak in the Blue Lagoon and hidden geothermal pools.</li>
+        <li><strong>🐋 Wildlife Encounters:</strong> Spot whales, puffins, and Icelandic horses.</li>
+        <li><strong>🌌 Northern Lights (seasonal):</strong> Witness magical auroras dancing across the night sky.</li>
+      </ul>
+
+      <p>With experienced local guides, comfortable accommodations, and a small group setting, this tour blends adventure and relaxation, nature and culture, into one seamless journey.</p>
+
+      <h3>What's Included:</h3>
+
+      <ul>
+        <!-- Unordered list of inclusions in the tour -->
+        <li>Accommodation</li>
+        <li>Meals</li>
+        <li>Transport</li>
+        <li>Guided activities</li>
+      </ul>
+
+      <p class="info"><strong>Duration:</strong> 7 days</p>
+
+      <p class="info"><strong>Price:</strong> $999</p>
+
+      <button onclick="window.location.href='paymentpage.html?price=999'" class="book-btn">Continue</button>
+    </section>
+  </main>
+
+  <section id="weather-widget">
+    <!-- Section for displaying the weather forecast -->
+
+    <h3>Weather forecast in Reykjavík</h3>
+
+    <div id="weather-info">
+      <!-- Placeholder for weather data -->
+      <p>Loading forecast...</p>
+      <!-- Text to show while the weather data is loading -->
+    </div>
+  </section>
+
+  <section id="vote-section">
+    <!-- Section for the voting feature -->
+
+    <h3>Would you join this tour?</h3>
+
+    <button onclick="vote('yes')">Yes 👍</button>
+    <!-- Button to vote "Yes" -->
+
+    <button onclick="vote('no')">No 👎</button>
+    <!-- Button to vote "No" -->
+
+    <div id="vote-results" style="margin-top: 1rem;"></div>
+    <!-- Container to display the results of the vote -->
+  </section>  
+
+  <footer>
+    <!-- Footer section of the page -->
+
+    <h3>Contacts</h3>
+
+    <p><strong>Telephone:</strong> +353 85 1351009</p>
+
+    <p><strong>Email:</strong> adventuretravel@gmail.com</p>
+
+    <h3>FAQ</h3>
+
+    <ul>
+      <!-- Unordered list of frequently asked questions -->
+      <li><strong>How can I book?</strong> Click the tour, then hit "Book Now".</li>
+      <li><strong>Are flights included?</strong> Usually yes — check details on each tour page.</li>
+      <li><strong>What is included in the tour package?</strong> Accommodation, transport, activities, and some meals.</li>
+      <li><strong>What is your cancellation policy?</strong> Free cancellation up to 14 days before the tour.</li>
+      <li><strong>Do I need travel insurance?</strong> Yes, we recommend having it.</li>
+      <li><strong>Are the tours suitable for all ages?</strong> Most are — check each tour for details.</li>
+    </ul>
+  </footer>
+
+  <script src="../js/tour1.js"></script>
+  <!-- External JavaScript file for additional functionality -->
+</body>
+</html>

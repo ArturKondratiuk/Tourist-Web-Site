@@ -1,0 +1,80 @@
+/* WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* Importing the "Outfit" font from Google Fonts with various weights */
+
+html {
+  font-family: "Outfit", sans-serif; /* Setting the font for the entire document */
+  font-optical-sizing: auto; /* Automatically adjusts font rendering for optical sizing */
+  font-style: normal; /* Ensures the font style is normal */
+}
+
+body {
+  margin: 0; /* Removes default browser margin */
+  background: #fff; /* Sets the background color to white */
+  color: #333; /* Sets the text color to dark gray for readability */
+}
+
+header {
+  background-color: #ff6f3c; /* Sets the header background color to orange */
+  color: white; /* Sets the text color in the header to white */
+  text-align: center; /* Centers text horizontally */
+}
+
+.header {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks elements vertically */
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers text within elements */
+}
+
+.logo {
+  height: 150px; /* Sets the height of the logo */
+  width: auto; /* Maintains aspect ratio */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for scaling and shadow effects */
+}
+
+.logo:hover {
+  transform: scale(1.2); /* Enlarges the logo on hover */
+}
+
+.back-button {
+  position: absolute; /* Positions the back button relative to the viewport */
+  top: 5px; /* Positions it 5px from the top */
+  left: 5px; /* Positions it 5px from the left */
+  z-index: 1000; /* Ensures it appears above other elements */
+}
+
+.backimg {
+  width: 50px; /* Sets the size of the back button image */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for scaling and shadow effects */
+}
+
+.back-button:hover {
+  transform: scale(1.2); /* Enlarges the back button on hover */
+}
+
+img {
+  width: 100%; /* Ensures images take up the full width of their container */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 8px; /* Rounds the corners of images */
+  margin-bottom: 1rem; /* Adds spacing below images */
+  object-fit: cover; /* Ensures the image covers its container without distortion */
+}
+
+span {
+  color: red; /* Sets the text color to red */
+  text-decoration: underline; /* Underlines the text */
+}
+
+footer {
+  background: #fdf2ec; /* Sets the footer background color to a light cream */
+  padding: 2rem; /* Adds space inside the footer */
+}
+
+.letadventure {
+  margin-left: 20px; /* Adds left margin to the "Let the adventure begin" text */
+}
+
+footer h3 {
+  color: #ff6f3c; /* Sets the footer headings to the orange color */
+}

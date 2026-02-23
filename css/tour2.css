@@ -1,0 +1,163 @@
+/* WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* Importing Google Font "Outfit" for the entire page */
+/* Global font settings for the whole page */
+html {
+  font-family: "Outfit", sans-serif; /* Applying the "Outfit" font */
+  font-optical-sizing: auto; /* Ensures optimal readability based on font size */
+  font-style: normal; /* Normal text style */
+}
+
+/* Body styling - setting background, text color, and removing default margin */
+body {
+  margin: 0; /* Removes default margin */
+  background: #ffffff; /* White background for the page */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Header section with vibrant background and centered text */
+header {
+  background-color: #ff6f3c; /* Bright orange background */
+  color: white; /* White text color */
+  padding: 2rem; /* Adding padding for spacing */
+  text-align: center; /* Centering the text */
+}
+
+/* Back button styles - positioned absolutely in the header */
+.back-button {
+  position: absolute; /* Positions the button relative to its first positioned ancestor */
+  top: -30px; /* Moves the button above the header */
+  left: -30px; /* Moves the button to the left of the header */
+  z-index: 1000; /* Makes sure the back button is on top of other elements */
+}
+
+/* Image in the back button with fixed width */
+.backimg {
+  width: 50px; /* Sets the width of the back button icon */
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+  transform: scale(1.2); /* Scales up the button */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for the scaling effect */
+}
+
+/* Styling for all images across the page */
+img {
+  align-items: center; /* Aligns the image within its container */
+  margin: 2rem; /* Adds margin around the image */
+  max-width: 100%; /* Ensures the image does not stretch beyond its container */
+  width: 765px; /* Limits the width for larger displays */
+  border-radius: 12px; /* Rounded corners for the images */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adds a smooth hover effect for scaling and box shadow */
+}
+
+/* Hover effect for images */
+img:hover {
+  transform: scale(1.015); /* Slightly scales the image when hovered */
+}
+
+/* Styling for the details section, providing padding and limiting max-width */
+.details {
+  padding: 0 2rem 2rem; /* Adds padding for spacing inside the details section */
+  max-width: 2000px; /* Limits the max width of the section */
+}
+
+/* Custom styling for the heading elements in the details section */
+.details h2,
+.details h3 {
+  color: #ff6f3c; /* Matches the header background color for consistency */
+}
+
+/* Styling for unordered list in the details section */
+.details ul {
+  list-style: square; /* Adds square bullet points */
+  margin-left: 1.5rem; /* Adds left margin to the list items */
+}
+
+/* Styling for important info like duration and price */
+.info {
+  font-weight: bold; /* Makes the text bold */
+  margin-top: 1rem; /* Adds top margin to space it from other elements */
+}
+
+/* Button styles for the "Continue" button */
+.book-btn {
+  background-color: #ff6f3c; /* Bright orange background for the button */
+  color: white; /* White text color */
+  border: none; /* Removes border */
+  padding: 1rem 2rem; /* Adds padding to the button */
+  font-size: 1rem; /* Sets font size for the button text */
+  margin-top: 1.5rem; /* Adds top margin to space it from other elements */
+  border-radius: 8px; /* Rounded corners for the button */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+  transition: background 0.3s ease; /* Smooth background color transition on hover */
+}
+
+/* Hover effect for the "Continue" button */
+.book-btn:hover {
+  background-color: #e45d29; /* Darker shade of orange when hovered */
+}
+
+/* Footer section styling with background color and padding */
+footer {
+  background: #fdf2ec; /* Light background color for the footer */
+  padding: 2rem; /* Adds padding inside the footer */
+  margin-top: 2rem; /* Adds margin to the top to space it from the content above */
+  border-top: 1px solid #eee; /* Adds a subtle border at the top */
+}
+
+/* Styling for footer headings */
+footer h3 {
+  color: #ff6f3c; /* Matches the header and button color for consistency */
+}
+
+/* Styling for the vote section with a soft background */
+#vote-section {
+  background-color: #fff5ef; /* Soft background color */
+  padding: 1.5rem; /* Adds padding inside the vote section */
+  border-radius: 12px; /* Rounded corners for the section */
+  text-align: center; /* Centers the text */
+  margin-top: 2rem; /* Adds top margin */
+}
+
+/* Button styles inside the vote section */
+#vote-section button {
+  background-color: #ff6f3c; /* Bright orange background */
+  color: white; /* White text color */
+  border: none; /* Removes border */
+  padding: 0.6rem 1.2rem; /* Padding inside the button */
+  margin: 0.5rem; /* Margin between the buttons */
+  border-radius: 8px; /* Rounded corners for the buttons */
+  font-size: 1rem; /* Font size for the button text */
+  cursor: pointer; /* Changes cursor to a pointer to indicate it's clickable */
+  transition: transform 0.2s ease; /* Adds smooth scaling effect when hovered */
+}
+
+/* Hover effect for buttons in the vote section */
+#vote-section button:hover {
+  transform: scale(1.05); /* Slightly scales up the button on hover */
+}
+
+/* Styling for vote results text */
+#vote-results {
+  font-weight: bold; /* Makes the vote results text bold */
+  color: #333; /* Dark text color for contrast */
+}
+
+/* Weather widget section styling with a soft background and box shadow */
+#weather-widget {
+  background: #fff5ef; /* Soft background color */
+  padding: 1.5rem; /* Padding inside the widget */
+  border-radius: 12px; /* Rounded corners for the widget */
+  margin-top: 2rem; /* Adds top margin */
+  text-align: center; /* Centers the text */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Adds a subtle shadow around the widget */
+}
+
+/* Weather info styling inside the weather widget */
+#weather-info {
+  font-size: 1.1rem; /* Slightly larger font size for weather info */
+  margin-top: 1rem; /* Adds top margin */
+  color: #333; /* Dark text color for better readability */
+}

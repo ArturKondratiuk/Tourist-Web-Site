@@ -1,0 +1,104 @@
+<!-- WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding set to UTF-8 for proper text display -->
+  <meta charset="UTF-8" />
+  <title>Magic Ireland</title> <!-- Title of the webpage displayed in the browser tab -->
+  <!-- Link to external stylesheet for the tour page -->
+  <link rel="stylesheet" href="../css/tour3.css"/>
+</head>
+<body>
+  <!-- Header section containing the title and back button -->
+  <header style="position: relative;">
+    <!-- Back button to navigate to the main page -->
+    <a href="../index.html" class="back-button">
+      <img src="../images/back_to_main_page.png" alt="Home" class="backimg"/>
+    </a>
+    <!-- Tour title displayed at the top of the page -->
+    <h1>Magic Ireland</h1>
+  </header>
+
+  <!-- Main content of the tour page -->
+  <main>
+    <!-- Banner section displaying images of Ireland -->
+    <section class="banner">
+      <!-- Each image represents a view of Ireland -->
+      <img src="../images/magic_ireland2.jpeg" class="image-container" alt="Magic Ireland View 1" />
+      <img src="../images/magic_ireland3.jpeg" class="image-container" alt="Magic Ireland View 2" />
+      <img src="../images/magic_ireland4.jpeg" class="image-container" alt="Magic Ireland View 3" />
+    </section>
+
+    <!-- Tour details section -->
+    <section class="details">
+      <h2>About the Tour</h2> 
+      <p>Step into a world of legend, history, and breathtaking landscapes on this immersive cultural tour through Ireland. This journey blends dramatic natural beauty with centuries of Celtic heritage:</p>
+
+      <!-- List of highlights for the tour -->
+      <ul>
+        <li><strong>🏰 Ancient Castles:</strong> Wander the halls of medieval fortresses, from the towering Blarney Castle (don’t forget to kiss the stone!) to charming hidden ruins scattered across the emerald countryside.</li>
+        <li><strong>🌊 Cliffs of Moher:</strong> Stand on the edge of awe at one of the world’s most iconic natural wonders — the Cliffs of Moher. Soaring over 700 feet above the Atlantic Ocean, these cliffs offer panoramic views you’ll never forget.</li>
+        <li><strong>🍀 Charming Villages:</strong> Explore cobbled streets and colorful facades in picturesque towns like Galway and Kilkenny, where Irish music and hospitality fill the air.</li>
+        <li><strong>🥁 Cultural Traditions:</strong> Learn about Gaelic folklore, enjoy live traditional music sessions, and taste local favorites from hearty stews to creamy pints of Guinness.</li>
+      </ul>
+
+      <!-- A short description of the tour experience -->
+      <p>This tour is a perfect blend of history, nature, and authentic Irish culture, offering a deep connection to the soul of the Emerald Isle.</p>
+
+      <h3>What's Included:</h3>
+      <ul>
+        <li>Accommodation</li>
+        <li>Meals</li>
+        <li>Transport</li>
+        <li>Guided activities</li>
+      </ul>
+
+      <!-- Information about the tour's duration and price -->
+      <p class="info"><strong>Duration:</strong> 6 days</p>
+      <p class="info"><strong>Price:</strong> $899</p>
+
+      <!-- Button to proceed to the payment page -->
+      <button onclick="window.location.href='paymentpage.html?price=899'" class="book-btn">Continue</button>
+    </section>
+  </main>
+
+  <!-- Weather forecast section for Dublin -->
+  <section id="weather-widget">
+    <h3>Weather forecast in Dublin</h3>
+    <!-- Weather information is dynamically added here -->
+    <div id="weather-info">
+      <p>Loading forecast...</p>
+    </div>
+  </section>
+
+  <!-- Voting section where users can vote whether they would join the tour -->
+  <section id="vote-section">
+    <h3>Would you join this tour?</h3>
+    <!-- Buttons for voting Yes or No -->
+    <button onclick="vote('yes')">Yes 👍</button>
+    <button onclick="vote('no')">No 👎</button>
+    <!-- Display vote results here -->
+    <div id="vote-results" style="margin-top: 1rem;"></div>
+  </section>  
+
+  <!-- Footer section with contact details and FAQ -->
+  <footer>
+    <h3>Contacts</h3>
+    <p><strong>Telephone:</strong> +353 85 1351009</p>
+    <p><strong>Email:</strong> adventuretravel@gmail.com</p>
+
+    <h3>FAQ</h3>
+    <ul>
+      <li><strong>How can I book?</strong> Click the tour, then hit "Book Now".</li>
+      <li><strong>Are flights included?</strong> Usually yes — check details on each tour page.</li>
+      <li><strong>What is included in the tour package?</strong> Accommodation, transport, activities, and some meals.</li>
+      <li><strong>What is your cancellation policy?</strong> Free cancellation up to 14 days before the tour.</li>
+      <li><strong>Do I need travel insurance?</strong> Yes, we recommend having it.</li>
+      <li><strong>Are the tours suitable for all ages?</strong> Most are — check each tour for details.</li>
+    </ul>
+  </footer>
+
+  <!-- External JavaScript file linked for handling the tour page's functionality -->
+  <script src="../js/tour3.js"></script>
+</body>
+</html>

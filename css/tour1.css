@@ -1,0 +1,163 @@
+/* WHOLE FILE WAS CREATED BY ARTUR KONDRATIUK */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* Importing the 'Outfit' font from Google Fonts */
+/* General font settings */
+html {
+  font-family: "Outfit", sans-serif; /* Apply the 'Outfit' font to the entire page */
+  font-optical-sizing: auto; /* Automatically adjusts font size based on display characteristics */
+  font-style: normal; /* Sets normal font style */
+}
+
+/* Basic body styling */
+body {
+  margin: 0; /* Remove default margin */
+  background: #ffffff; /* Set background color to white */
+  color: #333; /* Set text color to dark gray */
+}
+
+/* Styling the header */
+header {
+  background-color: #ff6f3c; /* Set header background color */
+  color: white; /* Set text color in the header to white */
+  padding: 2rem; /* Add padding around the header */
+  text-align: center; /* Center align the text inside the header */
+}
+
+/* Styling for the back button */
+.back-button {
+  position: absolute; /* Position the back button absolutely */
+  top: -30px; /* Move it above the header */
+  left: -30px; /* Move it to the left of the page */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+/* Styling for the back button image */
+.backimg {
+  width: 50px; /* Set the width of the back button image */
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+  transform: scale(1.2); /* Scale up the back button when hovered */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for scaling and shadow effects */
+}
+
+/* Styling for all images on the page */
+img {
+  align-items: center; /* Center align the images */
+  margin: 2rem; /* Add margin around the images */
+  max-width: 100%; /* Ensure the images don't exceed the container width */
+  width: 767px; /* Set a fixed width of 767px for the images */
+  border-radius: 12px; /* Round the corners of the images */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for scaling and shadow effects */
+}
+
+/* Hover effect for images */
+img:hover {
+  transform: scale(1.015); /* Slightly scale up the image on hover */
+}
+
+/* Styling the details section */
+.details {
+  padding: 0 2rem 2rem; /* Add padding around the details section */
+  max-width: 2000px; /* Set a maximum width for the details section */
+}
+
+/* Styling for headings inside the details section */
+.details h2,
+.details h3 {
+  color: #ff6f3c; /* Set the text color to the primary theme color */
+}
+
+/* Styling for unordered lists in the details section */
+.details ul {
+  list-style: square; /* Set list items to have square bullets */
+  margin-left: 1.5rem; /* Add left margin for the list */
+}
+
+/* Styling for info text in the details section */
+.info {
+  font-weight: bold; /* Make the text bold */
+  margin-top: 1rem; /* Add a margin to the top of the element */
+}
+
+/* Styling for the booking button */
+.book-btn {
+  background-color: #ff6f3c; /* Set the button's background color */
+  color: white; /* Set the text color to white */
+  border: none; /* Remove the button border */
+  padding: 1rem 2rem; /* Add padding inside the button */
+  font-size: 1rem; /* Set the font size */
+  margin-top: 1.5rem; /* Add margin to the top */
+  border-radius: 8px; /* Round the button's corners */
+  cursor: pointer; /* Change the cursor to a pointer when hovering */
+  transition: background 0.3s ease; /* Smooth transition for background color on hover */
+}
+
+/* Hover effect for the booking button */
+.book-btn:hover {
+  background-color: #e45d29; /* Darken the background color on hover */
+}
+
+/* Footer section styling */
+footer {
+  background: #fdf2ec; /* Set the footer's background color */
+  padding: 2rem; /* Add padding inside the footer */
+  margin-top: 2rem; /* Add margin to the top of the footer */
+  border-top: 1px solid #eee; /* Add a subtle top border */
+}
+
+/* Styling for headings inside the footer */
+footer h3 {
+  color: #ff6f3c; /* Set the footer heading text color to the primary theme color */
+}
+
+/* Styling for the voting section */
+#vote-section {
+  background-color: #fff5ef; /* Set a light pink background color */
+  padding: 1.5rem; /* Add padding inside the vote section */
+  border-radius: 12px; /* Round the corners of the vote section */
+  text-align: center; /* Center align the text */
+  margin-top: 2rem; /* Add margin to the top of the vote section */
+}
+
+/* Styling for the vote buttons */
+#vote-section button {
+  background-color: #ff6f3c; /* Set the background color of the buttons */
+  color: white; /* Set the text color to white */
+  border: none; /* Remove the border from the buttons */
+  padding: 0.6rem 1.2rem; /* Add padding inside the buttons */
+  margin: 0.5rem; /* Add margin around the buttons */
+  border-radius: 8px; /* Round the corners of the buttons */
+  font-size: 1rem; /* Set the font size */
+  cursor: pointer; /* Change the cursor to a pointer when hovering */
+  transition: transform 0.2s ease; /* Smooth transition for scaling on hover */
+}
+
+/* Hover effect for the vote buttons */
+#vote-section button:hover {
+  transform: scale(1.05); /* Slightly scale up the button on hover */
+}
+
+/* Styling for the vote results text */
+#vote-results {
+  font-weight: bold; /* Make the vote results text bold */
+  color: #333; /* Set the text color to dark gray */
+}
+
+/* Styling for the weather widget */
+#weather-widget {
+  background: #fff5ef; /* Set a light pink background color */
+  padding: 1.5rem; /* Add padding inside the weather widget */
+  border-radius: 12px; /* Round the corners of the widget */
+  margin-top: 2rem; /* Add margin to the top of the widget */
+  text-align: center; /* Center align the content */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Add a subtle shadow effect */
+}
+
+/* Styling for the weather info inside the widget */
+#weather-info {
+  font-size: 1.1rem; /* Set the font size */
+  margin-top: 1rem; /* Add margin to the top of the weather info */
+  color: #333; /* Set the text color to dark gray */
+}
